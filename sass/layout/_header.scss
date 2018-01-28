@@ -1,0 +1,86 @@
+.site-header {
+    position: relative;
+}
+
+.logo {
+    float: left;
+
+    a {
+        padding: 48px 0 44px;
+        display: inline-block;
+    }
+}
+
+.main-nav {
+    float: right;
+}
+
+.menu {
+    margin: 40px 0;
+    padding: 0;
+
+    li {
+        float: left;
+    }
+
+    a {
+        color: #111111;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 9px 22px;
+        display: inline-block;
+    }
+}
+
+.menu .active, .menu li:hover {
+    border-bottom: 3px solid #e8bf5d;
+}
+
+.header {
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+}
+
+.main-header {
+    border-left: 2px solid #e8bf5d;;
+    padding-left: 20px;
+    float: left;
+    margin-right: 100px;
+}
+
+.lawyer {
+    font-family: "Open Sans", serif;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.contact-me {
+    float: right;
+    border-radius: 25px;
+    background-color: #e8bf5d;
+    padding: 15px 46px;
+    color: #111111;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 22px 0;
+    margin-left: 100px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 2.6px;
+    margin: 0;
+}

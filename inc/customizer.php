@@ -25,6 +25,48 @@ function advocatus_customize_register( $wp_customize ) {
 			'render_callback' => 'advocatus_customize_partial_blogdescription',
 		) );
 	}
+    $wp_customize->add_section(
+        'header_titles',
+        array(
+            'title' => 'Header_Title',
+        )
+    );
+    $wp_customize->add_setting(
+        'Title',
+        array('default' => 'Title')
+    );
+    $wp_customize->add_control(
+        'Title',
+        array(
+            'label' => 'Title',
+            'section' => 'header_titles',
+            'type' => 'text',
+        )
+    );
+    $wp_customize->add_setting(
+        'SubTitle',
+        array('default' => 'SubTitle')
+    );
+    $wp_customize->add_control(
+        'SubTitle',
+        array(
+            'label' => 'SubTitle',
+            'section' => 'header_titles',
+            'type' => 'text',
+        )
+    );
+    $wp_customize->add_setting(
+        'LinkContactMe',
+        array('default' => 'Contact Me')
+    );
+    $wp_customize->add_control(
+        'LinkContactMe',
+        array(
+            'label' => 'Link',
+            'section' => 'header_titles',
+            'type' => 'text',
+        )
+    );
 }
 add_action( 'customize_register', 'advocatus_customize_register' );
 

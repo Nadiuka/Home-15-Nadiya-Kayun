@@ -1,0 +1,51 @@
+.site-footer {
+    background-color: #111111;
+    padding: 32px 0;
+}
+
+.copyright {
+    float: left;
+
+    a {
+        color: #b5b5b5;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+.icon {
+    float: right;
+}
+
+.icon-items {
+    margin: 0;
+
+    li {
+        float: left;
+        margin-right: 20px;
+    }
+
+    a {
+        display: inline-block;
+        width: 20px;
+        height: auto;
+        padding: 5px;
+    }
+}
+
+.facebook {
+    background: url("../img/f.png") no-repeat scroll center/cover;
+}
+
+.twitter {
+    background: url("../img/t.png") no-repeat scroll center/cover;
+}
+
+.google-plus {
+    background: url("../img/g.png") no-repeat scroll center/cover;
+}
+
+.instagram {
+    background: url("../img/i.png") no-repeat scroll center/cover;
+}

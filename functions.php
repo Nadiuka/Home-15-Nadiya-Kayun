@@ -117,6 +117,17 @@ add_action( 'widgets_init', 'advocatus_widgets_init' );
  * Enqueue scripts and styles.
  */
 function advocatus_scripts() {
+    $styleFile = get_template_directory_uri() . '/css/main.css';
+    wp_register_style(
+        'mystylesheets', $styleFile
+    );
+    wp_enqueue_style('mystylesheets');
+    $fontAwesome = get_template_directory_uri() . '/css/font-awesome.min.css';
+    wp_register_style(
+        'fontAwesome', $fontAwesome
+    );
+    wp_enqueue_style('fontAwesome');
+
 	wp_enqueue_style( 'advocatus-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'advocatus-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
@@ -155,4 +166,7 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+
+
 
