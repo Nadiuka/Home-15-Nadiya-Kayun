@@ -97,6 +97,42 @@ function advocatus_customize_register( $wp_customize ) {
             'type' => 'text',
         )
     );
+    $wp_customize->add_setting(
+        'HeaderHistory',
+        array('default' => 'Header_History')
+    );
+    $wp_customize->add_control(
+        'HeaderHistory',
+        array(
+            'label' => 'Header_History',
+            'section' => 'about_us',
+            'type' => 'text',
+        )
+    );
+    $wp_customize->add_setting(
+        'HeaderExpertise',
+        array('default' => 'Header_Expertise')
+    );
+    $wp_customize->add_control(
+        'HeaderExpertise',
+        array(
+            'label' => 'Header_Expertise',
+            'section' => 'about_us',
+            'type' => 'text',
+        )
+    );
+    $wp_customize->add_setting(
+        'TextExpertise',
+        array('default' => 'Text_Expertise')
+    );
+    $wp_customize->add_control(
+        'TextExpertise',
+        array(
+            'label' => 'Text_Expertise',
+            'section' => 'about_us',
+            'type' => 'text',
+        )
+    );
 }
 add_action( 'customize_register', 'advocatus_customize_register' );
 

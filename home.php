@@ -12,7 +12,7 @@ get_header(); ?>
             </div>
             <div class="clearfix">
                 <div class="history">
-                    <h3>History</h3>
+                    <h3><?php echo get_theme_mod('HeaderHistory'); ?></h3>
                     <dl class="history-year clearfix">
                         <dt>2016 -</dt>
                         <dd>In hac habitasse platea dictumst Nunc ultricies iaculis luctus Aliquam eget eros eget sapien
@@ -27,14 +27,8 @@ get_header(); ?>
                     </dl>
                 </div>
                 <div class="expertise">
-                    <h3>Expertise</h3>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                        ut
-                        labore
-                        et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
-                        ea
-                        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem.Lorem ipsum dolor sit amet,
-                        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
+                    <h3><?php echo get_theme_mod('HeaderExpertise'); ?></h3>
+                    <p><?php echo get_theme_mod('TextExpertise'); ?></p>
                 </div>
             </div>
         </div>
