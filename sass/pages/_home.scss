@@ -34,19 +34,19 @@
     }
 }
 
+h3 {
+    color: #111111;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
 //section About us//
 
 .about-us {
     background-color: #ffffff;
     padding: 81px 0 96px;
-
-    h3 {
-        color: #111111;
-        font-family: "Playfair Display", sans-serif;
-        font-size: 21px;
-        font-weight: 400;
-        margin-top: 0;
-    }
 }
 
 .history {
@@ -88,3 +88,244 @@
         line-height: 31px;
     }
 }
+
+// section practis area//
+
+.practis-area {
+    background-color: #111111;
+    padding: 78px 0 96px;
+    color: #ffffff;
+
+    h2, h3, .number {
+        color: #ffffff;
+    }
+}
+
+.practis {
+    width: 100%;
+    margin-left: 111px;
+
+    li {
+        width: 50%;
+        float: left;
+    }
+
+    .practis-item {
+        margin-left: 50px;
+        padding: 0 120px 72px 29px;
+    }
+
+    p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+}
+
+.service-icon, .sequre-icon, .labour-icon, .estate-icon {
+    color: #e8bf5d;
+    font-size: 45px;
+    font-weight: 400;
+    float: left;
+    clear: both;
+}
+
+//section our attorney//
+
+.our-attorney {
+    background-color: #ffffff;
+    padding: 81px 0 101px;
+}
+
+.attorney {
+    width: 100%;
+    padding-left: 0;
+
+    li {
+        width: 25%;
+        float: left;
+        padding-right: 35px;
+    }
+
+    h3 {
+        padding-top: 30px;
+        margin: 0;
+    }
+
+    div {
+        color: #666666;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+//section clients say//
+
+.clients-say {
+    background: url("../img/04background.png") no-repeat scroll center/cover;
+    padding: 78px 0 107px;
+
+    h2, .number {
+        color: #ffffff;
+    }
+}
+
+.client {
+    width: 100%;
+    padding: 74px 0 24px;
+}
+
+.client-img {
+    width: 40%;
+    float: left;
+    padding: 0 35px 0 20px;
+    position: relative;
+}
+
+.yellow-background {
+    width: auto;
+}
+
+.ceo-alon {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: auto;
+}
+
+.client-opinion {
+    width: 60%;
+    float: right;
+    background: url("../img/quotes.png") no-repeat scroll left top/auto;
+
+    p, .ceo, h3 {
+        color: #ffffff;
+        margin-left: 39px;
+    }
+
+    p {
+        margin-top: 0;
+        padding-right: 160px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        opacity: 0.7;
+    }
+
+    h3 {
+        margin-bottom: 0;
+    }
+
+    .ceo {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 10px;
+        opacity: 0.7;
+    }
+}
+
+.dot {
+    margin-top: 96px;
+
+    li {
+        float: left;
+        margin-right: 5px;
+    }
+
+    a {
+        border-radius: 50%;
+        border: 1px solid #ffffff;
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+
+        &:hover {
+            background-color: #ffffff;
+        }
+    }
+}
+
+//section publications//
+
+.publication-tite {
+    padding: 80px 0 103px;
+    background-color: white;
+
+    ul {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    li {
+        width: 33.33%;
+        float: left;
+        padding-right: 43px;
+    }
+}
+
+article {
+    border-bottom: 2px solid #e8bf5d;
+}
+
+.publication {
+    h3 {
+        margin-top: 29px;
+        margin-bottom: 5px;
+    }
+
+    time, .by {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #666666;
+        font-style: italic;
+    }
+
+    .by {
+        float: left;
+    }
+
+    time {
+        float: right;
+    }
+
+    p {
+        color: #666666;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 31px;
+        padding: 38px 0;
+    }
+}
+
+.comments-share {
+    width: 100%;
+    margin-bottom: 29px;
+
+    li {
+        width: 50%;
+    }
+
+    .comments {
+        float: left;
+    }
+
+    .share {
+        float: right;
+        padding-right: 0;
+        text-align: right;
+    }
+
+    a {
+        color: #111111;
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+

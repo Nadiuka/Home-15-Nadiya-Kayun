@@ -133,6 +133,126 @@ function advocatus_customize_register( $wp_customize ) {
             'type' => 'text',
         )
     );
+    $wp_customize->add_section(
+        'practis_area',
+        array(
+            'title' => 'Section_Practis_Area',
+        )
+    );
+    $wp_customize->add_setting(
+        'HeaderPractis',
+        array('default' => 'HeaderPractis')
+    );
+    $wp_customize->add_control(
+        'HeaderPractis',
+        array(
+            'label' => 'HeaderPractis',
+            'section' => 'practis_area',
+            'type' => 'text',
+        )
+    );
+    $wp_customize->add_setting(
+        'TextPractis',
+        array('default' => 'TextPractis')
+    );
+    $wp_customize->add_control(
+        'TextPractis',
+        array(
+            'label' => 'TextPractis',
+            'section' => 'practis_area',
+            'type' => 'text',
+        )
+    );
+    $wp_customize->add_section(
+        'attorney',
+        array(
+            'title' => 'Section_Attorney',
+        )
+    );
+    $wp_customize->add_setting(
+        'HeaderAttorney',
+        array('default' => 'HeaderAttorney')
+    );
+    $wp_customize->add_control(
+        'HeaderAttorney',
+        array(
+            'label' => 'HeaderAttorney',
+            'section' => 'attorney',
+            'type' => 'text',
+        )
+    );
+    $wp_customize->add_setting(
+        'TextAttorney',
+        array('default' => 'TextAttorney')
+    );
+    $wp_customize->add_control(
+        'TextAttorney',
+        array(
+            'label' => 'TextAttorney',
+            'section' => 'attorney',
+            'type' => 'text',
+        )
+    );
+    $wp_customize->add_section(
+        'clients',
+        array(
+            'title' => 'Section_Clients',
+        )
+    );
+    $wp_customize->add_setting(
+        'HeaderClients',
+        array('default' => 'HeaderClients')
+    );
+    $wp_customize->add_control(
+        'HeaderClients',
+        array(
+            'label' => 'HeaderClients',
+            'section' => 'clients',
+            'type' => 'text',
+        )
+    );
+    $wp_customize->add_setting(
+        'TextClients',
+        array('default' => 'TextClients')
+    );
+    $wp_customize->add_control(
+        'TextClients',
+        array(
+            'label' => 'TextClients',
+            'section' => 'clients',
+            'type' => 'text',
+        )
+    );
+    $wp_customize->add_section(
+        'publications',
+        array(
+            'title' => 'Section_Publications',
+        )
+    );
+    $wp_customize->add_setting(
+        'HeaderPublications',
+        array('default' => 'HeaderPublications')
+    );
+    $wp_customize->add_control(
+        'HeaderPublications',
+        array(
+            'label' => 'HeaderPublications',
+            'section' => 'publications',
+            'type' => 'text',
+        )
+    );
+    $wp_customize->add_setting(
+        'TextPublications',
+        array('default' => 'TextPublications')
+    );
+    $wp_customize->add_control(
+        'TextPublications',
+        array(
+            'label' => 'TextPublications',
+            'section' => 'publications',
+            'type' => 'text',
+        )
+    );
 }
 add_action( 'customize_register', 'advocatus_customize_register' );
 
